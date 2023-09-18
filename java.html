@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>message</title>
+</head>
+<body>
+    
+	<button onclick="play()">play</button>
+    <script type="text/javascript">
+    	function play(){
+    		if (confirm("Do You Want To Play?")) {
+    			document.getElementById('msg').innerHTML="lets start"
+    		}else{
+    			document.getElementById('msg').innerHTML="good bye"
+    		}function myname(){
+    			let name= prompt("enter your name")
+    			document.getElementById('msg').innerHTML="give a number"
+    		}
+    	}
+    	
+    </script>
+</body>
+</html>
